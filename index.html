@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-us">
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head>
     <meta http-equiv="Content-Type" content="text/html" charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
@@ -12,11 +12,11 @@
 	 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 
-    <link rel="shortcut icon" href="http://localhost:1313/img/favicon.ico">
+    <link rel="shortcut icon" href="https://m-wiegand.github.io/img/favicon.ico">
 
     <!-- Stylesheets -->
-    <link rel="stylesheet" href="http://localhost:1313/css/styles.css">
-    <link rel="stylesheet" href="http://localhost:1313/css/sp-minimal.css">
+    <link rel="stylesheet" href="https://m-wiegand.github.io/css/styles.css">
+    <link rel="stylesheet" href="https://m-wiegand.github.io/css/sp-minimal.css">
     
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.3/styles/default.min.css">
 </head>
@@ -63,11 +63,11 @@
 	</p>
 	<p style="font-weight: bold; font-size: 1.1rem;">
   	I will be on the 2025/2026 academic job market.	
-	<!--> 	
-	<!-- Start papers --> 	
+   	<!--  -->
+   	<!-- start papers  -->
 	</p>
 	<br>
-	<!--> 
+   	<!--  -->
     <h3><b>Research in Progress</b></h3> 
     <b>Cities with Benefits</b> 
 	<br>
@@ -80,13 +80,13 @@
 		Taken together, the results suggest that while higher benefits in high-price locations can be justified to insure jobseekers against higher cost of living, the associated fiscal externalities can be large enough to overturn the case for higher benefits in high-rent areas.
 		</p>
         </div>
-	<!--> 
+   	<!-- -->
 	<b>The Incumbents' Cost of Living Advantage</b> 
 	<br>
   	<i>with <a href="https://albrecht-glitz.com/" target = "_blank">Albrecht Glitz</a> and <a href="https://joanmonras.weebly.com/" target = "_blank">Joan Monras</a> </i> 
 	<i> (Draft available soon) </i>  <br> 
-        <button class="collapsible">Abstract</button>
-        <div class="abstract-content">
+        <button class="toggle-abstract" data-target="abstract2">Abstract</button>
+        <div id="abstract2" style="display:none;">
 		<p> 
 		Households become less geographically mobile as they accumulate tenure in a location. 
 		This paper quantifies the savings that renting households achieve by not moving and estimates its implications for the spatial distribution of households and housing supply.
@@ -101,19 +101,18 @@
 </div>
 <!-- For collapsible --> 
 <script>
-document.addEventListener("DOMContentLoaded", function () {
-  var coll = document.getElementsByClassName("collapsible");
-  for (var i = 0; i < coll.length; i++) {
-    coll[i].addEventListener("click", function () {
-      this.classList.toggle("active");
-      var content = this.nextElementSibling;
-      if (content.style.maxHeight){
-        content.style.maxHeight = null;
+document.addEventListener("DOMContentLoaded", function() {
+  document.querySelectorAll('.toggle-abstract').forEach(function(el) {
+    el.addEventListener('click', function() {
+      var targetId = el.getAttribute('data-target');
+      var targetElement = document.getElementById(targetId);
+      if (targetElement.style.display === 'none' || targetElement.style.display === '') {
+        targetElement.style.display = 'block';
       } else {
-        content.style.maxHeight = content.scrollHeight + "px";
-      } 
+        targetElement.style.display = 'none';
+      }
     });
-  }
+  });
 });
 </script>
 
@@ -132,13 +131,13 @@ document.addEventListener("DOMContentLoaded", function () {
   </small></p>    
   <p class="remove-margin-bottom add-padding-right">
   <small> &copy; 2025 
-    <a href="http://localhost:1313/"></a>
+    <a href="https://m-wiegand.github.io/"></a>
   </p>
 
 </footer>
 
 
-</div><script src="http://localhost:1313/js/scale.fix.js"></script>
+</div><script src="https://m-wiegand.github.io/js/scale.fix.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.3/highlight.min.js"></script>
 
 <script>hljs.initHighlightingOnLoad();</script>
