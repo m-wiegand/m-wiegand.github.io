@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sections on Martin Wiegand</title>
+    <link>https://m-wiegand.github.io/sections/</link>
+    <description>Recent content in Sections on Martin Wiegand</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 06 Aug 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://m-wiegand.github.io/sections/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Theme</title>
+      <link>https://m-wiegand.github.io/sections/theme/</link>
+      <pubDate>Wed, 06 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://m-wiegand.github.io/sections/theme/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Theme:&lt;/strong&gt; &lt;a href=&#34;https://github.com/orderedlist/minimal&#34;&gt;Minimal&lt;/a&gt; by orderedlist&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Teaching</title>
+      <link>https://m-wiegand.github.io/sections/teaching/</link>
+      <pubDate>Sun, 13 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://m-wiegand.github.io/sections/teaching/</guid>
+      <description>&lt;h3 id=&#34;upf&#34;&gt;UPF&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Labor Economics (Undergraduate)&lt;/strong&gt; (2023-2024)&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Public Economics (Undergraduate)&lt;/strong&gt; (2022)&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Modern Statistical Computing (Undergraduate)&lt;/strong&gt; (2023)&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://m-wiegand.github.io/sections/aboutme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://m-wiegand.github.io/sections/aboutme/</guid>
+      <description>&lt;p&gt;I’m a PhD candidate in Economics at &lt;a href=&#34;%22https://www.upf.edu/en/web/econ%22&#34;&gt;Universitat Pompeu Fabra (UPF)&lt;/a&gt; in Barcelona, Spain.&lt;/p&gt;&#xA;&lt;p&gt;My research examines how public policies shape household decisions and labor market outcomes across space.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;I will be on the 2025/2026 academic job market&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;!-- 📄 __[CV](/pdf/CVCN.pdf)__ --&gt;  &#xA;&lt;!-- 📧 [canishknaik@gmail.com](mailto:canishknaik@gmail.com) --&gt;</description>
+    </item>
+  </channel>
+</rss>

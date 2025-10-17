@@ -2,19 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://m-wiegand.github.io/about/</loc>
+    <loc>https://m-wiegand.github.io/</loc>
+    <lastmod>2025-08-06T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://m-wiegand.github.io/sections/</loc>
+    <lastmod>2025-08-06T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://m-wiegand.github.io/sections/theme/</loc>
+    <lastmod>2025-08-06T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://m-wiegand.github.io/sections/teaching/</loc>
+    <lastmod>2024-10-13T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://m-wiegand.github.io/sections/aboutme/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://m-wiegand.github.io/categories/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://m-wiegand.github.io/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://m-wiegand.github.io/research/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
